@@ -16,6 +16,8 @@ header {
     
     justify-content:center;
     padding: 20px;
+    display: flex;
+
    
 }
 
@@ -23,13 +25,12 @@ header {
 
     text-align: center;
    width: 100%;
-   display: flex;
+ 
 }
 
 .product img {
     min-width: 75%;
     max-width: 75%;
-    height: auto;
 }
 
 .employees {
