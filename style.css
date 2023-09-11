@@ -1,0 +1,96 @@
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto; 
+}
+
+
+.products {
+    
+    justify-content:center;
+    padding: 20px;
+   
+}
+
+.product {
+
+    text-align: center;
+   width: 100%;
+   display: flex;
+}
+
+.product img {
+    min-width: 75%;
+    max-width: 75%;
+    height: auto;
+}
+
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.employee {
+    text-align: center;
+    margin: 20px;
+}
+
+.employee img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 80px; 
+    }
+
+    .Products, .employees {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product, .employee {
+        margin: 10px;
+    }
+}
+
+.navigation .navigation-bar{
+    display:flex;
+  justify-content:space-around;
+    flex-direction:row;
+  }
+  .navigation .navigation-bar:hover{
+    color: #fff;
+
+  .button
+  {
+  border:1px solid black;
+  border-radius:10px;
+  text-align:center;
+  }
+  .button:hover{
+    background-color:#31BFC1;
+  }
