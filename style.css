@@ -24,7 +24,7 @@ header {
 .product {
 
     text-align: center;
-   width: 100%;
+  
  
 }
 
@@ -63,7 +63,11 @@ footer {
     header {
         padding: 10px;
     }
+.navigation >div 
+{
+    display:none;
 
+}
     .logo img {
         width: 80px; 
     }
@@ -76,16 +80,23 @@ footer {
     .product, .employee {
         margin: 10px;
     }
+    .About-section1{
+flex-direction: column;
+justify-content: center;
+width: 75%;
+    }
 }
 
-.navigation .navigation-bar{
+.navigation {
+    color: aqua;
     display:flex;
   justify-content:space-around;
     flex-direction:row;
   }
-  .navigation .navigation-bar:hover{
+  .navigation >div:hover {
     color: #fff;
 
+ }
   .button
   {
   border:1px solid black;
@@ -94,4 +105,17 @@ footer {
   }
   .button:hover{
     background-color:#31BFC1;
+  }
+  .fa-solid fa-burger{
+    color: aliceblue;
+  }
+  .About-section1{
+
+    display: flex;
+    justify-content: space-around;
+
+  }
+  h1{
+    font-weight:bold ;
+    color: #05797B;
   }
